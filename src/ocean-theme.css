@@ -1,0 +1,189 @@
+:root{--green:#063b50;--muted:#386b7a}
+.announcement{background:#052b3c}
+.period{color:#58d0e4}
+.intro h2 em,.manifesto h2 em,.split-copy h2 em,.stockists h2 em,.faq h2 em{color:#387d91}
+.manifesto-mark{color:#0a465c}
+.manifesto-mark span{color:#d28758}
+.split-story{background:#e3eaeb}
+.split-image img{object-position:76% center}
+.feature-photo img{object-position:72% 54%}
+.product-art img{object-position:80% center}
+.dark-button{background:#083c50}
+.dark-button:hover{background:#13687d}
+.stockists{background:#e4ebeb}
+.newsletter{background:#052f42}
+.newsletter h2 em{color:#69c2d0}
+.locations>a svg{color:#34788a}
+.faq-item button svg{color:#34788a}
+.circle-link:hover{background:#e2faff;color:#07384a}
+.hero-copy{left:50%;top:34%;transform:translateX(-50%);width:min(94%,1120px);text-align:center}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 48%;filter:saturate(.82);z-index:0}
+.hero-shade{z-index:1}
+.hero-meta,.hero-copy,.hero-index{z-index:2}
+.hero h1{font-size:clamp(42px,10.8vw,138px);white-space:nowrap;letter-spacing:-.075em;text-shadow:0 3px 34px rgba(0,0,0,.48)}
+.hero-bottom{width:auto;justify-content:center;gap:24px}
+.hero-bottom p{text-align:center}
+.hero-shade{background:linear-gradient(90deg,rgba(3,13,20,.49),rgba(3,13,20,.12) 88%),linear-gradient(0deg,rgba(2,15,22,.52),transparent 60%)}
+.how-to{padding-top:36px;padding-bottom:105px;background:#e7edef}
+.how-heading{max-width:690px;margin:68px auto 53px;text-align:center}
+.how-heading h2{font:500 clamp(43px,5.5vw,74px)/1.04 var(--serif);letter-spacing:-.055em;margin:0 0 21px}
+.how-heading h2 em{font-weight:500;color:#387d91}
+.how-heading>p:last-child{max-width:545px;margin:0 auto;font-size:13px;line-height:1.8;color:#56584f}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.step-card{position:relative;min-height:230px;padding:27px 26px;background:#f4f2eb;border:1px solid #c8d3d5}
+.step-card>span{position:absolute;right:20px;top:24px;font:10px var(--mono);color:#8d958d}
+.step-card>svg{color:#34788a;margin-bottom:25px}
+.step-card h3{font:10px var(--mono);letter-spacing:.1em;margin:0 0 13px;color:#133d4a}
+.step-card p{font-size:12px;line-height:1.75;color:#5f625b;margin:0;max-width:300px}
+.skills-band{margin-top:17px;padding:23px 25px;background:#083c50;color:#eff3ef;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.skills-title{display:flex;align-items:center;gap:13px;flex-shrink:0}
+.skills-title>svg{color:#6bc5d1}
+.skills-title span{font:9px var(--mono);letter-spacing:.12em;color:#d8e5e5}
+.skills-title p{margin:6px 0 0;font:11px var(--serif);color:#f3f0e9}
+.skill-tags{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:7px}
+.skill-tags span{border:1px solid rgba(228,243,244,.35);padding:8px 10px;font:8px var(--mono);letter-spacing:.04em;color:#e5eff0}
+.retailer-lockup{padding:27px 0 20px;border-bottom:1px solid #bcb9af}
+.retailer-lockup span{font:9px var(--mono);letter-spacing:.12em;color:#5e7780}
+.retailer-lockup strong{display:block;font-size:26px;line-height:1.05;letter-spacing:.025em;margin-top:14px;color:#0a4155}
+.checkout{padding-top:36px;padding-bottom:112px;background:#f8f6f0}
+.checkout-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:12%;padding:70px 4% 0;align-items:start}
+.checkout-intro h2{font:500 clamp(43px,5.1vw,69px)/1.05 var(--serif);letter-spacing:-.055em;margin:0}
+.checkout-intro h2 em{font-weight:500;color:#387d91}
+.checkout-intro>p:not(.eyebrow){font-size:13px;line-height:1.8;color:#56584f;max-width:380px;margin:23px 0 38px}
+.checkout-price{border-top:1px solid #c9d3d3;padding-top:19px}
+.checkout-price>span{display:block;font:9px var(--mono);letter-spacing:.13em;color:#5e7780}
+.checkout-price>strong{display:block;font:500 37px/1.25 var(--serif);letter-spacing:-.04em;margin-top:7px}
+.checkout-price>strong small{font:10px var(--mono);letter-spacing:.1em;color:#5e7780}
+.checkout-price p{font:10px/1.6 var(--mono);color:#5e7780;margin:5px 0 0}
+.payment-card{padding:29px;background:#fff;border:1px solid #c8d3d5;box-shadow:0 18px 50px rgba(42,47,37,.055)}
+.payment-card>.eyebrow{margin-bottom:18px}
+.payment-options{display:grid;gap:9px}
+.payment-option{width:100%;min-height:69px;border:1px solid #d3ddde;background:#fff;display:grid;grid-template-columns:20px 1fr 20px;gap:12px;align-items:center;text-align:left;padding:13px 15px;cursor:pointer;color:var(--ink);transition:border-color .2s,background .2s}
+.payment-option:hover,.payment-option.selected{border-color:#083c50;background:#f2f8f8}
+.payment-radio{width:16px;height:16px;border:1px solid #8a8c82;border-radius:50%;display:block;position:relative}
+.payment-option.selected .payment-radio{border-color:#083c50}
+.payment-option.selected .payment-radio:after{content:'';position:absolute;inset:3px;background:#083c50;border-radius:50%}
+.payment-option strong,.payment-option small{display:block}
+.payment-option strong{font-size:13px;font-weight:600}
+.payment-option small{font-size:10px;color:#5e7780;margin-top:4px}
+.payment-option>svg{color:#34788a}
+.payment-guidance{margin-top:17px;background:#e7edef;padding:17px}
+.payment-guidance>strong{font:11px var(--mono);letter-spacing:.04em}
+.payment-guidance p{font-size:11px;line-height:1.7;color:#56584f;margin:8px 0}
+.payment-guidance>span{font:10px var(--mono);color:#133d4a}
+.payment-safety{display:flex;gap:12px;align-items:flex-start;border-top:1px solid #dbe1df;margin-top:18px;padding-top:16px}
+.payment-safety>span{color:#34788a}
+.payment-safety p{font-size:10px;line-height:1.7;color:#56584f;margin:0}
+.payment-safety strong{color:#133d4a}
+.payment-readiness{margin-top:20px;padding:16px;background:#eef4f2;border-left:3px solid #34788a}
+.payment-readiness strong{font:9px var(--mono);letter-spacing:.1em;color:#133d4a}
+.payment-readiness p{font-size:10px;line-height:1.7;color:#56584f;margin:8px 0 0}
+.payment-note{display:block;font:9px/1.7 var(--mono);color:#5e7780;margin-top:12px}
+.game-collection{padding-top:36px;padding-bottom:104px;background:#f3f6f3}
+.collection-heading{padding:66px 4% 43px;max-width:690px}
+.collection-heading h2{font:500 clamp(44px,5.2vw,70px)/1.04 var(--serif);letter-spacing:-.055em;margin:0}
+.collection-heading h2 em{font-weight:500;color:#387d91}
+.collection-heading>p:last-child{font-size:13px;line-height:1.8;color:#56584f;max-width:420px;margin:20px 0 0}
+.collection-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.collection-card{background:#fff;border:1px solid #d7e0df;min-width:0}
+.collection-art{height:245px;position:relative;overflow:hidden;display:grid;place-items:center}
+.collection-art>span{position:absolute;left:15px;top:15px;font:8px var(--mono);letter-spacing:.12em;z-index:1}
+.collection-art>strong{font:500 150px/.8 var(--serif);letter-spacing:-.09em}
+.collection-art>i{position:absolute;right:15px;bottom:14px;font:8px var(--mono);letter-spacing:.13em;font-style:normal}
+.travel-art{background:#0e5368;color:#eff4ec}
+.travel-art:before,.travel-art:after{content:'';position:absolute;width:220px;height:220px;border:1px solid rgba(203,233,210,.28);border-radius:50%}
+.travel-art:after{width:168px;height:168px;border-color:rgba(201,241,105,.5)}
+.travel-art>strong{z-index:1;color:#c9f169;text-shadow:0 8px 30px #062f3970}
+.pareci-art{background:#e4eee6;color:#173b3e}
+.pareci-art:before{content:'';position:absolute;width:168px;height:168px;border:1px solid #8ab0ab;border-radius:50%;box-shadow:0 0 0 26px rgba(53,113,117,.06),0 0 0 53px rgba(53,113,117,.04)}
+.pareci-art>strong{z-index:1;font-size:86px;color:#277287}
+.stop-art{background:#a9d7e1}
+.stop-art img{height:100%;width:100%;object-fit:cover;object-position:center 42%;opacity:.87}
+.stop-art .stop-art-label{left:auto;right:14px;background:#fff;padding:8px 10px;color:#343d34}
+.collection-card-copy{padding:19px 18px 23px}
+.collection-status{font:8px var(--mono);letter-spacing:.11em;color:#326a70}
+.collection-status.status-informative{color:#8b733b}
+.collection-card-copy h3{font:500 26px/1.1 var(--serif);letter-spacing:-.03em;margin:9px 0 0;white-space:nowrap}
+.collection-price{display:block;margin-top:9px;font:500 17px var(--serif);color:#173b3e}
+.collection-price small{font:8px var(--mono);letter-spacing:.08em;color:#5e7780}
+.collection-card-copy p{font-size:11px;line-height:1.75;color:#61665e;margin:11px 0 0;min-height:58px}
+.collection-buy{display:inline-flex;align-items:center;gap:8px;margin-top:15px;padding-bottom:5px;border-bottom:1px solid #173b3e;font:8px var(--mono);letter-spacing:.08em;color:#173b3e}
+.collection-buy:hover{color:#34788a;border-color:#34788a}
+.retailer-lockup p{font:12px var(--serif);color:#626d69;margin:12px 0 0}
+.partner-button{max-width:350px}
+.locations>a strong{font-size:12px}
+.stockists-grid .locations>a:first-of-type{border-top:0}
+.stockists-grid .locations>a{height:59px}
+.faq{padding-top:36px}
+@media(max-width:760px){.feature-photo img{object-position:73% center}.split-image img{object-position:76% center}.product-art img{object-position:78% center}}
+@media(prefers-reduced-motion:reduce){.hero-video{display:none}.hero{background:#073b50 url('/madaquecua-cover.png') center 48%/cover no-repeat}}
+@media(max-width:760px){
+ .hero-copy{top:37%;width:94%}.hero-video{object-position:54% center}.hero h1{font-size:clamp(38px,10vw,76px);letter-spacing:-.08em}.hero-bottom{gap:13px}.hero-bottom p{font-size:10px}.hero-meta{font-size:6px;letter-spacing:.07em}
+ .how-to{padding-bottom:72px}.how-heading{margin:49px auto 35px}.how-heading h2{font-size:48px}.steps-grid{grid-template-columns:1fr;gap:9px}.step-card{min-height:0;padding:22px 20px}.step-card>svg{margin:0 0 14px}.step-card h3{margin-bottom:8px}
+ .skills-band{padding:22px 18px;align-items:flex-start;flex-direction:column;gap:17px}.skill-tags{justify-content:flex-start}
+ .retailer-lockup strong{font-size:23px}
+ .checkout{padding-top:30px;padding-bottom:76px}.checkout-layout{grid-template-columns:1fr;gap:36px;padding:47px 0 0}.checkout-intro h2{font-size:51px}.checkout-intro>p:not(.eyebrow){margin-bottom:26px}.payment-card{padding:20px 16px}
+ .game-collection{padding-top:30px;padding-bottom:72px}.collection-heading{padding:47px 0 31px}.collection-heading h2{font-size:51px}.collection-grid{grid-template-columns:1fr;gap:12px}.collection-card{display:grid;grid-template-columns:.85fr 1fr;align-items:stretch}.collection-art{height:100%;min-height:200px}.collection-art>strong{font-size:115px}.pareci-art>strong{font-size:67px}.collection-card-copy{padding:19px 15px}.collection-card-copy h3{font-size:23px;white-space:normal}.collection-card-copy p{min-height:0}
+}
+
+/* Madaquecua brand artwork: island greens, warm wood, and original game cards. */
+:root{--green:#29442c;--muted:#68765f}
+.announcement,.newsletter{background:#263b29}
+.period,.manifesto-mark span{color:#d78b39}
+.intro h2 em,.manifesto h2 em,.split-copy h2 em,.stockists h2 em,.faq h2 em{color:#687944}
+.manifesto-mark,.retailer-lockup strong{color:#365c35}
+.hero-video{filter:saturate(1.05)}
+.feature-photo{background:#f1eddf}
+.feature-photo img{object-fit:contain;object-position:center;filter:none;padding:16px}
+.feature-photo:after,.split-image:after{display:none}
+.photo-caption,.split-image span{color:#29442c}
+.split-image{background:#f1eddf}
+.split-image img{object-fit:contain;object-position:center;background:#fbfaf6;filter:none;padding:24px}
+.product-art img{filter:none;object-position:center}
+.dark-button,.skills-band{background:#29442c}
+.dark-button:hover{background:#45643c}
+.how-to{background:#edf0e4}
+.step-card{border-color:#c9d2b6}
+.step-card>svg,.payment-option>svg,.locations>a svg,.faq-item button svg{color:#54723b}
+.skills-title>svg{color:#e0a34b}
+.newsletter h2 em{color:#e3bd74}
+.stockists{background:#e9e6d9}
+@media(prefers-reduced-motion:reduce){.hero-video{display:none}.hero{background:#29442c url('/madaquecua-cover.png') center 48%/cover no-repeat}}
+
+/* Clearly marked content and media still needed from Daco Arts. */
+.pending-text{display:block;color:#c52332;font:600 10px/1.75 var(--mono);letter-spacing:.025em}
+.image-placeholder{min-height:245px;padding:23px;background:#d71920;color:#fff;display:flex;flex-direction:column;justify-content:space-between;gap:17px}
+.image-placeholder>span{font:9px var(--mono);letter-spacing:.15em}
+.image-placeholder>strong{font:500 clamp(21px,2.5vw,34px)/1.05 var(--serif);letter-spacing:-.03em}
+.image-placeholder>small{font:9px/1.6 var(--mono);color:#fff}
+.evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:28px}
+.product-evidence{padding-top:45px;padding-bottom:95px;background:#f7f4eb}
+.product-evidence h2{font:500 clamp(42px,5vw,68px)/1.02 var(--serif);letter-spacing:-.055em;margin:55px 0 18px}
+.product-evidence h2 em{color:#687944;font-weight:500}
+.example-placeholder{max-width:400px;margin:0 auto 28px}
+.example-placeholder .image-placeholder{min-height:250px}
+.collection-card>.image-placeholder{min-height:245px}
+.collection-status .pending-text{font-size:8px;letter-spacing:0}
+.collection-card-copy p .pending-text{font-size:9px}
+.pending-tag{color:#ffc8cc;border:1px solid rgba(255,255,255,.55);padding:8px 10px;font:600 8px/1.5 var(--mono);letter-spacing:.04em}
+.pending-action{display:block;color:#c52332;border-color:#c52332;line-height:1.6}
+.whatsapp-placeholder,.whatsapp-cta{display:flex;flex-direction:column;gap:10px;margin-top:23px;padding:16px;border:1px solid #d71920}
+.whatsapp-placeholder>strong{font:9px var(--mono);letter-spacing:.08em}
+.whatsapp-cta{background:#29442c;border-color:#29442c;color:white;font:9px/1.7 var(--mono);letter-spacing:.06em}
+.payment-readiness .pending-text{margin:0}
+.location-placeholder{padding:16px 0;border-bottom:1px solid #bcb9af}
+.newsletter-contact{position:relative;z-index:1;padding-top:25px}
+.newsletter-contact small{display:block;margin-top:14px;color:#d2cdbb;font:9px/1.7 var(--mono)}
+.step-card h3 .pending-text{font-size:9px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #df8b31;outline-offset:4px}
+@media(max-width:760px){
+  .evidence-grid{grid-template-columns:1fr;gap:9px}
+  .image-placeholder,.collection-card>.image-placeholder{min-height:195px;padding:18px}
+  .product-evidence{padding-top:30px;padding-bottom:68px}
+  .product-evidence h2{font-size:49px;margin:43px 0 16px}
+  .example-placeholder{max-width:100%}
+  .collection-card>.image-placeholder{height:100%}
+  .collection-card-copy .pending-text{overflow-wrap:anywhere}
+  .whatsapp-placeholder,.whatsapp-cta{font-size:9px}
+}
+@media(max-width:360px){.hero h1{font-size:34px;letter-spacing:-.075em}.hero-meta{font-size:5px}.collection-card{grid-template-columns:.75fr 1fr}}

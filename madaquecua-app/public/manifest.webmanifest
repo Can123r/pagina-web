@@ -1,0 +1,14 @@
+{
+  "name": "¿Madaquecua? · Compañera de juego",
+  "short_name": "Madaquecua",
+  "description": "Retos y marcador para jugar ¿Madaquecua?",
+  "lang": "es-CO",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f1e7",
+  "theme_color": "#093d3a",
+  "icons": [
+    { "src": "/madaquecua-cover.png", "sizes": "any", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
