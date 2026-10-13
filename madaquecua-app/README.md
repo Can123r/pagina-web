@@ -25,7 +25,7 @@ El sitio debe publicarse bajo la raíz de un dominio (o configurar `base` en Vit
 
 - **Un jugador:** reto visual de 60 segundos basado en las cinco figuras indicadas en el reglamento, con cuenta regresiva, alarma al terminar y pantalla roja. Los ejercicios generados son práctica de observación; no replican cartas físicas.
 - **Multijugador:** perfiles locales, registro del ganador y monedas de cada carta, editor de valores, historial de rondas y ranking con posiciones empatadas.
-- **Penta:** retos del documento `PENTA 3.pdf`, selección por nivel y tarjeta, piezas que se colocan tocando o arrastrando, controles para girar y voltear, cronómetro y mejor tiempo local. Los tableros usan el número de fichas leído en cada tarjeta; algunas detecciones desde el PDF deben cotejarse visualmente con el manual.
+- **Penta:** al entrar, abre el primer reto con instrucciones y tablero visible. Desde el juego se accede a los niveles. La bandeja de fichas aparece debajo de la cuadrícula; puedes arrastrar una ficha o tocarla y luego tocar su destino. Incluye controles para girar y voltear, cronómetro y mejor tiempo local. Los tableros usan el número de fichas leído en cada tarjeta; algunas detecciones desde el PDF deben cotejarse visualmente con el manual.
 
 Los valores predeterminados 1–4 son ejemplos editables, no una transcripción completa de las cartas. El reglamento físico indica que el valor está en la esquina de cada carta. Las reglas clásicas también nombran una excepción de robo para cartas de cuatro monedas; esta app registra ganador y valor, sin automatizar esa excepción porque se resuelve sobre las cartas físicas.
 
