@@ -1,14 +1,14 @@
 {
-  "name": "Dark Quartz · Juegos Daco Arts",
-  "short_name": "Dark Quartz",
-  "description": "Juegos de Daco Arts con retos y progreso guardado en este dispositivo.",
+  "name": "DACO Arts · Arcade de juegos",
+  "short_name": "DACO Arts",
+  "description": "Juegos DACO Arts: Madaquecua y Penta. Progreso guardado localmente.",
   "lang": "es-CO",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#10121a",
-  "theme_color": "#10121a",
+  "background_color": "#10131e",
+  "theme_color": "#10131e",
   "icons": [
-    { "src": "/madaquecua-cover.png", "sizes": "any", "type": "image/png", "purpose": "any maskable" }
+    { "src": "/daco-arcade.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
   ]
 }

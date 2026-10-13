@@ -1,6 +1,6 @@
-# Dark Quartz · juegos Daco Arts
+# DACO Arts Arcade
 
-PWA instalable hecha con React y Vite. Dark Quartz reúne los juegos de Daco Arts: Madaquecua y Penta. La aplicación no usa cuentas ni backend: guarda perfiles, partidas, retos completados y mejores tiempos en `localStorage` del teléfono o navegador actual. Al borrar los datos del navegador, se borran esos registros.
+PWA instalable hecha con React y Vite. DACO Arts Arcade reúne Madaquecua y Penta en una interfaz arcade inspirada en Tetris y juegos de bloques. La aplicación no usa cuentas ni backend: guarda perfiles, partidas, retos completados y mejores tiempos en `localStorage` del teléfono o navegador actual. Al borrar los datos del navegador, se borran esos registros.
 
 ## Desarrollo en Visual Studio Code
 

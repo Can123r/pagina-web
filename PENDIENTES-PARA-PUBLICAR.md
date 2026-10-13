@@ -57,7 +57,7 @@ Los espacios rojos de la página señalan datos que aún debe confirmar Daco Art
 - Mantener el pago como instrucciones informativas hasta que el proceso de pedido, recaudo y confirmación esté definido.
 - Generar una compilación nueva con `npm run build` y publicar el contenido de `dist`.
 
-10. **App Dark Quartz**
-   - La PWA en `madaquecua-app/` agrupa Dark Quartz, Madaquecua y Penta. Para Seenode como Static Site, usa root `madaquecua-app`, build `npm install && npm run build` y output `dist`.
+10. **DACO Arts Arcade**
+   - La PWA en `madaquecua-app/` agrupa Madaquecua y Penta bajo la marca DACO Arts. Para Seenode como Static Site, usa root `madaquecua-app`, build `npm install && npm run build` y output `dist`.
    - Revisar las tarjetas de Penta reconocidas desde `PENTA 3.pdf` contra el documento antes de dar por validada toda la colección.
    - Validar que los valores predeterminados de monedas de Madaquecua coincidan con las cartas físicas disponibles. Los valores son editables en la app.

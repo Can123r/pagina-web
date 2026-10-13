@@ -1,5 +1,5 @@
-const CACHE = 'dark-quartz-games-v2';
-const CORE = ['/', '/index.html', '/manifest.webmanifest', '/madaquecua-cover.png', '/madaquecua-personajes.png', '/madaquecua-monedas-referencia.png'];
+const CACHE = 'daco-arts-arcade-v3';
+const CORE = ['/', '/index.html', '/manifest.webmanifest', '/daco-arcade.svg', '/madaquecua-cover.png', '/madaquecua-personajes.png', '/madaquecua-monedas-referencia.png'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE))));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))));
 self.addEventListener('fetch', event => {
