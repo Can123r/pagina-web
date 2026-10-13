@@ -1,13 +1,13 @@
 {
-  "name": "¿Madaquecua? · Compañera de juego",
-  "short_name": "Madaquecua",
-  "description": "Retos y marcador para jugar ¿Madaquecua?",
+  "name": "Dark Quartz · Juegos Daco Arts",
+  "short_name": "Dark Quartz",
+  "description": "Juegos de Daco Arts con retos y progreso guardado en este dispositivo.",
   "lang": "es-CO",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#f5f1e7",
-  "theme_color": "#093d3a",
+  "background_color": "#10121a",
+  "theme_color": "#10121a",
   "icons": [
     { "src": "/madaquecua-cover.png", "sizes": "any", "type": "image/png", "purpose": "any maskable" }
   ]

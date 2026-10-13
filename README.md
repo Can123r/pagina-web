@@ -30,4 +30,4 @@ npm run dev
 
 ## App complementaria
 
-La PWA de acompañamiento está en [`madaquecua-app/`](./madaquecua-app/). Se construye y publica por separado como sitio estático; consulta su README para los valores de Seenode.
+La PWA instalable **Dark Quartz**, que reúne Madaquecua y Penta, está en [`madaquecua-app/`](./madaquecua-app/). Se publica por separado como Static Site; consulta su README para compilarla en Seenode.
